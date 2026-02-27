@@ -65,10 +65,10 @@ interpretable results.
 
 ## 🛠️ Tech Stack
 
-Python: 3.12.12 
-Pandas: 2.3.3
-NumPy: 2.0.2
-Matplotlib: 3.10.0
-Seaborn: 0.13.2
-Scikit-learn: 1.6.1
+ - Python: 3.12.12 
+- Pandas: 2.3.3
+- NumPy: 2.0.2
+- Matplotlib: 3.10.0
+- Seaborn: 0.13.2
+- Scikit-learn: 1.6.1
 
