@@ -1,0 +1,82 @@
+[README.md](https://github.com/user-attachments/files/25599035/README.md)
+# 📊 Customer Churn Prediction
+
+## 📌 Project Overview
+
+This project analyzes customer churn behavior and builds a predictive
+model to identify customers who are most likely to leave the service.
+
+The analysis combines: - Exploratory Data Analysis (EDA) - Feature
+engineering - Logistic Regression modeling - Model evaluation (Confusion
+Matrix, Classification Report, ROC-AUC)
+
+The goal of this project is to understand churn drivers and quantify the
+potential business impact.
+
+------------------------------------------------------------------------
+
+## 🎯 Business Objectives
+
+This project aims to answer the following key business questions:
+
+1.  Who are the customers most likely to churn?
+2.  Why are they churning?
+3.  What is the potential revenue loss?
+
+------------------------------------------------------------------------
+
+## 📂 Dataset
+
+The dataset contains customer information such as:
+
+-   Contract type\
+-   Internet service\
+-   Tenure\
+-   Monthly charges\
+-   Total charges\
+-   Payment method\
+-   Churn status (target variable)
+
+Target variable: - **Churn** → Yes (1), No (0)
+
+------------------------------------------------------------------------
+
+## 🔎 Exploratory Data Analysis (EDA)
+
+Key findings from the analysis:
+
+-   Customers with **Month-to-Month contracts** have significantly
+    higher churn rates.
+-   Customers with **short tenure** are more likely to churn.
+-   Higher **monthly charges** are associated with increased churn
+    probability.
+-   Long-term contract customers (1-year and 2-year) show very low churn
+    rates.
+
+These findings indicate that contract type, tenure, and pricing
+structure strongly influence churn behavior.
+
+------------------------------------------------------------------------
+
+## 🤖 Modeling Approach
+
+### Logistic Regression
+
+-   Feature scaling applied before training\
+-   Used as the primary predictive model\
+-   Evaluated using classification metrics and ROC-AUC
+
+The model successfully identifies high-risk churn customers and provides
+interpretable results.
+
+------------------------------------------------------------------------
+
+## 🛠️ Tech Stack
+
+-   Python\
+-   Pandas\
+-   NumPy\
+-   Matplotlib\
+-   Seaborn\
+-   Scikit-learn
+
