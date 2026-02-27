@@ -27,17 +27,9 @@ This project aims to answer the following key business questions:
 
 ## 📂 Dataset
 
-The dataset contains customer information such as:
+The dataset source of this project is from kaggle
 
--   Contract type\
--   Internet service\
--   Tenure\
--   Monthly charges\
--   Total charges\
--   Payment method\
--   Churn status (target variable)
-
-Target variable: - **Churn** → Yes (1), No (0)
+Kaggle Dataset : [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 ------------------------------------------------------------------------
 
