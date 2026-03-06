@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/25599035/README.md)
 # 📊 Customer Churn Prediction
 
 ## 📌 Project Overview
